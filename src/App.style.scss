@@ -1,0 +1,21 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: rgba(26, 26, 26, 0.985);
+    > #root {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: inherit;
+        width: inherit;
+
+        > iframe {
+            height: 100%;
+            width: 100%;
+            border: unset;
+        }
+    }
+}
