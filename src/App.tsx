@@ -4,6 +4,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import Header from "./Header/Header";
+import Main from "./Main/Main";
 
 export function App() {
   const params = Object.entries({
@@ -19,6 +20,7 @@ export function App() {
   return (
     <div className="App">
       <Header />
+      <Main />
     </div>
   );
 }

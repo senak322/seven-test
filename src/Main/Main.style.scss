@@ -1,0 +1,26 @@
+@import "../styles/variables";
+
+.main {
+    &__container {
+        display: flex;
+        align-items: center;
+        border-bottom: $border-gery;
+        
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        border-right: $border-gery;
+        padding: .5rem;
+    }
+    &__name {
+        margin: 0;
+        margin-right: 1rem;
+        color: rgb(150, 150, 150);
+        // padding: 1rem 0;
+        font-size: 0.8rem;
+    }
+    &__name-small {
+        font-size: 0.6rem;
+    }
+}
